@@ -1,0 +1,12 @@
+:root{
+    --black: #0F0F0F;
+    --white: #fafafb;
+    --dark-blue: #232D3F;
+    --dark-green: #005B41;
+    --green-blue: #008170;
+}
+
+body{
+    background: linear-gradient(to bottom, var(--green-blue),var(--dark-green),var(--dark-blue));
+    height: 100vh;
+}
