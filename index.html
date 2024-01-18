@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <title>ToDoList</title>
 </head>
 <body>
-    <main>
+    <div id="fecha">Lunes 1 de enero de 2024</div>
+    <main class="container">
         <div class="perfil">
-            <div id="fecha"></div>
             <h1>Hola, William Rincon</h1>
             <span>Cumple tus metas!!!</span>
         </div>
+        <br>
         <hr>
+        <br>
         <div class="agregarTarea">
-            <input type="text" placeholder="Agregar Tarea">
+            <input id="input-tarea" type="text" placeholder="Agregar Tarea">
             <i id="enter" class="fa-solid fa-plus"></i>
         </div>
         <div class="tareas">
             <h3>Estas son tus tareas pendientes</h3>
             <ul id="lista">
-                <li>
-                    <i id="0" data="realizado" class="fa-regular fa-circle-dot"></i>
-                    <p class="text">Esto es un texto</p>
-                    <i id="0" data="elimidado" class="fa-solid fa-trash"></i>
-                </li>
+                //Aqui van las listas agragadas
             </ul>
         </div>
     </main>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>

@@ -1,12 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root{
-    --black: #0F0F0F;
-    --white: #fafafb;
-    --dark-blue: #232D3F;
-    --dark-green: #005B41;
-    --green-blue: #008170;
+    --white: #F5F5F5;
+    --black: #161A30;
+    --biege: #F2EAD3;
+    --dark-biege: #DFD7BF;
+    --brown: #3F2305;
 }
 
 body{
-    background: linear-gradient(to bottom, var(--green-blue),var(--dark-green),var(--dark-blue));
     height: 100vh;
+    background-color: var(--biege);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: var(--black);
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 30px auto 0 auto;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px var(--brown);
+}
+
+#fecha {
+    background-color: red;
+    padding: 20px;
+    width: 250px;
+    margin: 25px 50px 0 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.perfil h1 {
+    margin-bottom: 15px;
+}
+
+.agregarTarea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 10px;
+    background-color: var(--biege);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#input-tarea{
+    width: 100%;
+    height: 100%;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--biege);
 }
