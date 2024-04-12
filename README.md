@@ -1,12 +1,10 @@
 # TO DO APP PROJECT
 
-## Tabla de Contenidos
+## table of contents
 
-- [Introducción](#Development-team-members)
-- [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
+- [Developers](#Development-team-members)
+- [Instructions for running](#Instructions-for-running-a-Django-project)
+- [Execution of Linters](#Execution-of-Linters (PEP8 and Black))
 
 ## Development team members:
 Angel Esteban Restrepo – 1151962
