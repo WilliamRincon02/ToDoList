@@ -4,7 +4,7 @@
 
 - [Developers](#Development-team-members)
 - [Instructions for running](#Instructions-for-running-a-Django-project)
-- [Execution of Linters](#Execution-of-Linters (PEP8 and Black))
+- [Execution of Linters](#Execution-of-Linters-(PEP8-and-Black))
 
 ## Development team members:
 Angel Esteban Restrepo – 1151962
