@@ -4,7 +4,7 @@
 
 - [Developers](#Development-team-members)
 - [Instructions for running](#Instructions-for-running-a-Django-project)
-- [Execution of Linters](#Execution-of-Linters-(PEP8-and-Black))
+- [Execution of Linters](#Execution-of-Linters)
 
 ## Development team members:
 Angel Esteban Restrepo – 1151962
@@ -77,7 +77,7 @@ You are now ready to run the Django development server. Use the following comman
 
 Open a web browser and navigate to the address provided by the Django development server (usually http://127.0.0.1:8000/).
 
-# Execution of Linters (PEP8 and Black):
+# Execution of Linters:
 
 To run linters and check compliance with PEP 8 conventions and code formatting using Black, simply open a terminal and navigate to the project's root directory. Then, run the following command:
 
